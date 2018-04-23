@@ -1,21 +1,16 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	background-color: #ecebe8;
 }
 
-/* Main page */
+/* Top */
 
 .top-bar {
 	margin-top: 30px;
 }
 
-.container .logo {
-	height: 80px;
-	margin: 30px;
-	float: left;
-}
-
 h1 {
-	margin-top: 60px;
+	margin-top: 50px;
 	text-align: center;
 }
 
@@ -23,35 +18,53 @@ h3 {
 	text-align: center;
 }
 
-.container a {
+
+/* Main page */
+
+.container-fluid {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.cup {
+	height: 500px;
+	padding: 40px 400px 20px 40px;
+	position: absolute;
+	z-index: 1;
+}
+
+.cup-2 {
+	height: 500px;
+	padding: 40px 400px 20px 40px;
+	position: relative;
+	z-index: 2;
+}
+
+
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	margin-top: 50px;
+}
+
+a {
 	font-family: 'Homemade Apple', cursive;
 	font-size: 28px; 
 	color: black;
 	text-decoration: none;
 }
 
-.container a:hover {
+a:hover {
 	font-family: 'Homemade Apple', cursive;
 	font-size: 28px; 
-	color: brown;
+	color: #4d2600;
 	text-decoration: none;
 }
 
-.cup {
-	height: 500px;
-	margin: 40px;
-	clear: both;
-}
 
-.about {
-	margin-top: 100px;
-	margin-left: 30px;
-}
-
-.skills {
-	margin-top: 120px;
-	margin-left: 700px;
-}
 
 
 
