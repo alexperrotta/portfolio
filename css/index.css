@@ -41,13 +41,12 @@ h3 {
 }
 
 
-
 ul {
 	list-style-type: none;
 }
 
 li {
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 a {
@@ -64,6 +63,48 @@ a:hover {
 	text-decoration: none;
 }
 
+
+/* About */
+
+
+#about {
+	margin: 120px 40px 40px 15px;
+	display: flex;
+}
+
+.portrait {
+	margin: 30px 40px 30px 40px;
+}
+
+.about-text {
+	padding: 30px;
+}
+
+h4 {
+	font-family: 'Homemade Apple', cursive;
+}
+
+
+
+/* Skills */
+
+#skills {
+	margin: 80px 40px 40px 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.design {
+	margin: 50px;
+}
+
+.programming {
+	margin: 50px;
+}
+
+.analytics {
+	margin: 50px;
+}
 
 
 
