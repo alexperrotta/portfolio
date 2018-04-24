@@ -21,20 +21,15 @@ h3 {
 
 /* Main page */
 
-.container-fluid {
-	display: flex;
-	flex-wrap: wrap;
-}
-
 .cup {
-	height: 500px;
+	height: 600px;
 	padding: 40px 400px 20px 40px;
 	position: absolute;
 	z-index: 1;
 }
 
 .cup-2 {
-	height: 500px;
+	height: 600px;
 	padding: 40px 400px 20px 40px;
 	position: relative;
 	z-index: 2;
@@ -43,13 +38,14 @@ h3 {
 
 ul {
 	list-style-type: none;
+	margin-top: 120px;
 }
 
 li {
-	margin-top: 70px;
+	margin: 50px;
 }
 
-a {
+.links a {
 	font-family: 'Homemade Apple', cursive;
 	font-size: 28px; 
 	color: black;
@@ -68,20 +64,15 @@ a:hover {
 
 
 #about {
-	margin: 120px 40px 40px 15px;
-	display: flex;
-}
-
-.portrait {
-	margin: 30px 40px 30px 40px;
-}
-
-.about-text {
-	padding: 30px;
+	margin-top: 150px;
 }
 
 h4 {
 	font-family: 'Homemade Apple', cursive;
+}
+
+.portrait {
+	margin-top: 40px;
 }
 
 
@@ -89,26 +80,29 @@ h4 {
 /* Skills */
 
 #skills {
-	margin: 80px 40px 40px 15px;
+	margin: 80px 20px 80px 20px;
+}
+
+#skills h5 {
+	padding-bottom: 20px;
+}
+
+
+/* Projects */
+
+#projects {
 	display: flex;
-	justify-content: center;
+	flex-wrap: wrap;
 }
 
-.design {
-	margin: 50px;
+.projects-heading {
+	margin-bottom: 30px;
+	align-content: center;
 }
 
-.programming {
-	margin: 50px;
+#projects .card {
+	margin: 30px;
 }
-
-.analytics {
-	margin: 50px;
-}
-
-
-
-
 
 
 
