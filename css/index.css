@@ -106,3 +106,27 @@ h4 {
 
 
 
+/* Contact */
+
+#contact {
+	justify-content: center;
+	margin: 80px 20px 80px 20px;
+}
+
+
+
+
+
+
+/* Footer */
+
+footer {
+	color: white;
+	background-color: #4d2600;
+	width: 100%;
+	margin-top: 30px;
+}
+
+
+
+
