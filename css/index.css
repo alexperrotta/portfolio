@@ -10,6 +10,10 @@ section, footer {
 	margin: 70px;
 }
 
+h4 {
+	font-family: 'Homemade Apple', cursive;
+}
+
 
 /* Intro */
 
@@ -28,6 +32,10 @@ h3 {
 	list-style-type: none;
 	padding-top: 100px;
 	padding-right: 50px;
+}
+
+.links li {
+	margin-bottom: 120px;
 }
 
 .links a {
@@ -56,9 +64,11 @@ h3 {
 }
 
 
+/* About */
 
-
-
+#about img {
+	margin-top: 40px;
+}
 
 
 
