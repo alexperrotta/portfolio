@@ -13,6 +13,7 @@ section, footer {
 h4 {
 	font-family: 'Courgette', cursive;
 	font-size: 35px;
+	text-align: center;
 }
 
 
@@ -66,6 +67,9 @@ h2 {
 }
 
 
+
+
+
 /* About */
 
 #about img {
@@ -75,6 +79,7 @@ h2 {
 #about p {
 	font-size: 17px;
 }
+
 
 
 
@@ -93,10 +98,49 @@ h2 {
 }
 
 
+
+
+
 /* Projects */
 
-.card {
-	margin: 20px;
+#projects .row {
+	justify-content: center;
 }
 
+.card {
+	margin: 30px;
+}
+
+
+
+
+/* Contact */
+
+#contact {
+	text-align: center;
+}
+
+#contact p {
+	font-size: 24px;
+}
+
+#contact img {
+	margin: 5px;
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+	width: 100%;
+	margin-top: 30px;
+	text-align: center;
+}
+
+footer p {
+	padding: 20px;
+}
 
