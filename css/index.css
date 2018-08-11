@@ -108,10 +108,10 @@ h2 {
 }
 
 .card {
-	margin: 30px;
+	margin: 30px 30px 60px 30px;
+	width: 500px;
+	height: 400px;
 }
-
-
 
 
 /* Contact */
